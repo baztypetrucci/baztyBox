@@ -47,3 +47,29 @@
 .bzModalBox.active{
 	opacity: 1;
 }
+.bzLink{
+	position: absolute;
+	z-index: 2010;
+	width: 100%;
+	bottom: 20px;
+	left:0;
+	text-align: center;
+	text-decoration: none;
+}
+.bzLink span{
+	border-radius: 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	text-align:center;
+	display:inline;
+	margin:0 auto;
+	width:auto;
+	text-transform: uppercase;
+}
